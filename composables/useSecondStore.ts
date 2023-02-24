@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-export default function useEchoPlatformStore() {
+export default function useSecondStore() {
   const useSecondStore = defineStore('secondStore', {
     state: () => ({
       _aState: useCookie('random').value,
