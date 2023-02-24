@@ -20,7 +20,7 @@ export default {
       // I want this part to be called on client side
       const result = this.useFirstStore.useRandomUser(); // The useFirstStore is undefined or the useRandomUser is not a function in the console
       if (result) {
-        window.location.href = '/dashboard'; // i did this on purpose
+        console.log(result); // i did this to check
       }
     }
   },
