@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
 export default function useEchoPlatformStore() {
-  const useFirstStore = defineStore('useFirstStore', {
+  const useFirstStore = defineStore('firstStore', {
     state: () => ({
       _aState: false,
     }),
