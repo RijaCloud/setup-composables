@@ -10,6 +10,7 @@ export default {
     };
   },
   mounted() {
+    this.useSecondStore.setAState("value radom")
     if (process.client) {
       // I want this part to be called on client side
       const result = this.useFirstStore.useRandomUser(); // The useFirstStore is undefined or the useRandomUser is not a function in the console
